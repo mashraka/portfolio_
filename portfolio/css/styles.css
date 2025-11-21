@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');
+
+
+/*color scheme*/
+:root {
+    --nav-footer-background-color: rgb(185, 94, 130);
+    --primary-section-color:rgb(255, 236, 192);
+    --secondary-section-color:rgb(255, 194, 155);
+    --third-section-color: rgb(243, 159, 159);
+}
+
+body {
+    background-color: var(--primary-section-color);
+    margin: 0;
+    padding: 0;
+}
+
+nav, footer {
+    background-color: var(--nav-footer-background-color);
+}
+
+.nav_container {
+    border: 2px solid var(--nav-footer-background-color);
+    background-color: var(--nav-footer-background-color);
+    width: 100%;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+nav ul {
+    display: flex;
+    gap: 3px;
+}
+
+
+header {
+    background-color: bisque;
+    color: maroon;
+    padding: 50px;
+    text-align: center;
+    
+}
+
+header h1 {
+    font-family: "Mrs Saint Delafield", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 500%;
+    color: black;
+    text-shadow: 2px 2px 5px #888888;
+    
+    
+}
+
+.header-container {
+    border: 2px solid var(--primary-section-color);
+    background-color: var(--primary-section-color);
+    border-radius: 10px;
+}
+
+
+
+footer {
+    border: 2px solid var(--nav-footer-background-color);
+    text-align: center;
+}
+
+footer li{
+    display: inline-block;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 2px;
+    border-radius: 5px;
+}
