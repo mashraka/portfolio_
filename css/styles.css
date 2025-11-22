@@ -1,0 +1,160 @@
+/*styling for index.html*/
+
+/*Google API for Font*/
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Pinyon+Script&display=swap');
+
+.pinyon-script-regular {
+  font-family: "Pinyon Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+:root {
+    /*naming background colors*/
+    --primary-red: rgb(211, 78, 78);
+    --background-primary-tan: rgb(249, 231, 178);
+    --dirty-gold: rgb(221, 197, 122); 
+    --secondary-brown: rgb(206, 126, 90);
+    --nav-footer-background-color: rgb(68, 23, 82);
+    /*variable for font*/
+    --cursive-font: "Pinyon Script", cursive;
+}
+
+body, html {
+    font-family: serif, Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+header {
+    background-color: var(--background-primary-tan);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    box-sizing: border-box;
+    color: var(--nav-footer-background-color);
+    font-family: "Pinyon Script", cursive;
+}
+
+nav, footer {
+    background: var(--nav-footer-background-color);
+}
+
+.footer_container {
+    border: 2px solid var(--nav-footer-background-color);
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.nav_container {
+    border: 2px solid var(--nav-footer-background-color) ;
+}
+
+nav li {
+    display: inline-block;
+}
+
+.nav_1 {
+    font-family: var(--cursive-font);
+    font-size:x-large;
+}
+
+.nav_1, .nav_2, .nav_3 {
+    border: 2px solid var(--nav-footer-background-color);
+    border-radius: 10px;
+    min-height: 2%;
+    padding: 1%;
+    display: inline-block;
+    margin: 1%;
+    text-align: center;
+    color: aliceblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav_1:hover, .nav_2:hover, .nav_3:hover {
+    background-color: var(--secondary-brown);
+    border: 2px solid var(--nav-footer-background-color);
+    color: aliceblue;
+}
+
+.nav_1:visited, .nav_2:visited, .nav_3:visited {
+    border: 2px solid var(--nav-footer-background-color);
+    border-radius: 10px;
+    min-height: 2%;
+    color: aliceblue;
+}
+
+footer {
+    text-align: center;
+    padding: 1%;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li {
+    display: inline-block;
+}
+
+.socials_1, .socials_2, .socials_3, .socials_4 {
+    border: 2px solid var(--nav-footer-background-color);
+    border-radius: 10px;
+    min-height: 2%;
+    padding: 1%;
+    display: inline-block;
+    margin: 1%;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.socials_1:hover, .socials_2:hover, .socials_3:hover, .socials_4:hover {
+    background-color: var(--primary-red);
+    border: 2px solid maroon;
+    color: aliceblue;
+}
+
+.socials_1:visited, .socials_2:visited, .socials_3:visited, .socials_4:visited {
+    border: 2px solid var(--nav-footer-background-color);
+    border-radius: 10px;
+    min-height: 2%;
+    color: aliceblue;
+}
+
+footer h4{
+    color: aliceblue
+}
+
+
+main {
+    background-color: var(--dirty-gold);
+    text-align: center;
+}
+
+.main_container {
+    border: 2px solid var(--dirty-gold) ;
+}
+
+main li {
+    list-style-type: none;
+}
+
+.about_title_container {
+    border: 2px solid var(--dirty-gold);
+    border-radius: 10px;
+    color: maroon;
+}
+
+h2, h3 {
+    color: maroon;
+}
