@@ -8,7 +8,7 @@
 * resume.html will be a printable webpage 
 
 ## style.css
-This file will contain all the necessary items for the presentation of all the pages and files. 
+This file will contain all the necessary items for presenting the pages and files. 
 
 ## all HTML pages
 All HTML pages will contain the following:
